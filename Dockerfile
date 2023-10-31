@@ -2,7 +2,7 @@
 FROM openjdk:11
 
 # Copie o arquivo war para o contêiner
-COPY ./target/treinamento-spring-boot.war /usr/app/
+COPY ./controller/target/treinamento-spring-boot.war /usr/app/
 
 # Mude o diretório de trabalho
 WORKDIR /usr/app
