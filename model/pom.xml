@@ -180,6 +180,7 @@
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
+			<version>1.18.20</version>
 			<artifactId>lombok</artifactId>
 		</dependency>
 		
