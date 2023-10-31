@@ -8,4 +8,4 @@ COPY ./controller/target/treinamento-spring-boot.war /usr/app/
 WORKDIR /usr/app
 
 # Execute o arquivo war
-ENTRYPOINT ["java", "-jar", "treinamento-spring-boot.war"]
+ENTRYPOINT ["java", "-jar", "treinamento.war"]
